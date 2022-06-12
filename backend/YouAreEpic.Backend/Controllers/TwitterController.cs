@@ -92,7 +92,7 @@ namespace YouAreEpic.Backend.Controllers
             return Ok(new
             {
                 Name = auth.CredentialStore.ScreenName,
-                Id= tweet.ID
+                Id = tweet.ID
             });
         }
 

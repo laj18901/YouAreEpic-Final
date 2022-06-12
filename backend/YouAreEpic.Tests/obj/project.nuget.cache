@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YgjSt4opMVDZfTsAfLhpUEbUnQCMzW4bWrx8yjJYDl/8/VzxQZ/y45V23tT8RjyMjyXX7oGqUczZBaJeZ7HR2A==",
+  "dgSpecHash": "2DymCf/7oPdjWOlbuSL6Ac1S1PN1IkZBu5rbzOrtEofQTLanSz7IUneDLSmp1yW/umhpdgZ5lNViqKMFHncNWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LAJ18901\\Downloads\\YouAreEpic_Final\\YouAreEpic4\\backend\\YouAreEpic.Tests\\YouAreEpic.Tests.csproj",
+  "projectFilePath": "C:\\Users\\LAJ18901\\Downloads\\YouAreEpic-Final\\backend\\YouAreEpic.Tests\\YouAreEpic.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LAJ18901\\.nuget\\packages\\ardalis.apiendpoints\\4.0.1\\ardalis.apiendpoints.4.0.1.nupkg.sha512",
     "C:\\Users\\LAJ18901\\.nuget\\packages\\ardalis.apiendpoints.codeanalyzers\\4.0.0\\ardalis.apiendpoints.codeanalyzers.4.0.0.nupkg.sha512",
