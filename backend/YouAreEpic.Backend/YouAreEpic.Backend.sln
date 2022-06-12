@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30711.63
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouAreEpic.Backend", "YouAreEpic.Backend.csproj", "{B545367F-FC45-43F2-BC13-6DB12DBC884F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YouAreEpic.Tests", "..\YouAreEpic.Tests\YouAreEpic.Tests.csproj", "{BDDAC76C-70FC-4175-BC98-6F8104BBE860}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B545367F-FC45-43F2-BC13-6DB12DBC884F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B545367F-FC45-43F2-BC13-6DB12DBC884F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B545367F-FC45-43F2-BC13-6DB12DBC884F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B545367F-FC45-43F2-BC13-6DB12DBC884F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDDAC76C-70FC-4175-BC98-6F8104BBE860}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDDAC76C-70FC-4175-BC98-6F8104BBE860}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDDAC76C-70FC-4175-BC98-6F8104BBE860}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDDAC76C-70FC-4175-BC98-6F8104BBE860}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {382E8F43-A296-411E-8B9D-486A7797599A}
+	EndGlobalSection
+EndGlobal

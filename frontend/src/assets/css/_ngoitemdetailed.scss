@@ -1,0 +1,51 @@
+@use 'color' as c;
+
+
+.detailedDetail{
+  margin: 10px;
+  color: c.$textColor
+}
+
+.detailedDetail::selection{
+  background-color: c.$primary;
+  color: white;
+}
+.detailedDetails{
+  width: inherit;
+  text-align: left;
+  display: block;
+  border-radius: 10px;
+  border-color: c.$primary;
+  font-family: Jost;
+  transition-duration: 0.5s;
+}
+
+.wrapperDetailed{
+  display: block;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: c.$primary 5px solid;
+
+}
+.itemDetailed {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.75vw;
+  display: flex;
+  color: #FFFFFF;
+  width: 100%;
+  height: 10vh;
+  background-color: c.$primary;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  align-content: center;
+}
+
+.itemDetailed:focus-visible {
+  outline: c.$primary 3px solid;
+  outline-offset: 4px;
+}
+
+

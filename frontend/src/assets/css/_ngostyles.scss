@@ -1,0 +1,17 @@
+.ngoname{
+  color: white;
+font-size: clamp(1rem,3vw,2rem);
+  font-family: Jost;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  align-self: center;
+  text-align: left;
+}
+
+.ngologo{
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  height: 8vh;
+  margin: 10px;
+  object-fit: scale-down;
+}

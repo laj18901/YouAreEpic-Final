@@ -1,0 +1,57 @@
+@startuml
+
+class Category{
+
+    string: Id
+
+    string: ImageLink
+
+    string: Name
+
+}
+
+
+
+class Post{
+
+    string: Id
+
+    string: Text
+
+    string: ImageLink
+
+    string: VideoLink
+
+    string: NonprofitorganisationId
+
+}
+
+
+
+class Nonprofitorganisation{
+
+    string: Id
+
+    string: LogoLink
+
+    string: Name
+
+    string: ShortDescription
+
+    string: Description
+
+    string: WebsiteLink
+
+    IList<string>: CategoryIds
+
+}
+
+
+
+Category *--> Nonprofitorganisation
+
+Nonprofitorganisation *--> Post
+
+
+
+@enduml

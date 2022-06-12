@@ -1,0 +1,5 @@
+C:\Users\Sami\Desktop\Repo\YouAreEpic\backend\YouAreEpic.Tests\obj\Debug\net5.0\YouAreEpic.Tests.csprojAssemblyReference.cache
+C:\Users\Sami\Desktop\Repo\YouAreEpic\backend\YouAreEpic.Tests\obj\Debug\net5.0\YouAreEpic.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Sami\Desktop\Repo\YouAreEpic\backend\YouAreEpic.Tests\obj\Debug\net5.0\YouAreEpic.Tests.AssemblyInfoInputs.cache
+C:\Users\Sami\Desktop\Repo\YouAreEpic\backend\YouAreEpic.Tests\obj\Debug\net5.0\YouAreEpic.Tests.AssemblyInfo.cs
+C:\Users\Sami\Desktop\Repo\YouAreEpic\backend\YouAreEpic.Tests\obj\Debug\net5.0\YouAreEpic.Tests.csproj.CoreCompileInputs.cache

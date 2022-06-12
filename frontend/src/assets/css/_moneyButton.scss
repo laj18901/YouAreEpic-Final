@@ -1,0 +1,78 @@
+@use 'color' as c;
+
+.moneyButton{
+  background-color: c.$highlightB;
+  border: none;
+  color: white;
+  padding: 10% 20%;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 8px 8px 8px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 10px;
+  font-size: clamp(0.85rem,2.5vw,1.5rem);
+}
+
+.moneyButton:hover {
+  background-color: c.$highlightA;
+  color: #FFFFFF;
+}
+
+.moneyButton:focus-visible{
+  outline: c.$highlightB 2px solid;
+  outline-offset: 3px;
+}
+
+.textfieldwrapper{
+  margin-top: 10px;
+  position: relative;
+  max-width: 10rem;
+  display: flex;
+}
+.textfieldwrapper>label{
+  padding:0 0.2em;
+  position:absolute;
+  top:-.75em;
+  left:1em;
+  background-color:white;
+
+}
+
+.textfieldwrapper>input{
+  padding:0.8em;
+  border-radius: 0.5em;
+  border: 2px solid c.$highlightB;
+  outline:none;
+}
+.textfieldwrapper>input:focus-visible{
+  border: 2px solid c.$highlightA;
+}
+
+.textfield{
+  font-size: 1.25rem;
+  width: 90%;
+}
+
+.submitButton{
+  border-radius: 10px;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  background-color: c.$highlightB;
+  width: 175px;
+  height: 50px;
+  cursor: pointer;
+
+  &:hover{
+    background-color: c.$highlightA;
+
+  }
+}
+
+.submitButton:focus-visible{
+  outline: c.$highlightB 2px solid;
+  outline-offset: 3px;
+
+}

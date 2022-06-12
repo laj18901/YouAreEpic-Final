@@ -1,0 +1,32 @@
+@use "color";
+@use "button";
+@use "stepper";
+@use "ngostyles";
+@use "card";
+@use 'ngoitem';
+@use 'ngoitemdetailed';
+@use 'moneyButton';
+@use 'dialog';
+@use 'post';
+
+.page{
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  font-family: Jost;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .page{
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    font-family: Jost;
+  }
+
+}
+
+

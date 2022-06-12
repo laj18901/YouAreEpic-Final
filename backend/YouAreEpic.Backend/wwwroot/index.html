@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <script type="module" crossorigin src="/assets/index.278ab0a0.js"></script>
+    <link rel="modulepreload" href="/assets/vendor.260b2556.js">
+    <link rel="stylesheet" href="/assets/index.702a5e96.css">
+  </head>
+  <body style="margin: 0;">
+    <div id="app">
+        <Seperator :text="this.$route.meta.text" v-if="!this.$route.meta.firstPage"></Seperator>
+        <main v-bind:class="{ 'page': !this.$route.meta.firstPage }">
+        <router-view></router-view>
+        </main>
+        <!--<Stepper></Stepper>-->
+    </div>
+    
+  </body>
+</html>
+<script>
+
+</script>
